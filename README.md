@@ -16,6 +16,13 @@ RecycleVision is an AI-powered system that identifies whether an item is recycla
    ```bash
    cd RecycleVision
 
+## Current Status
+
+1.  Dataset preparation completed.
+2.  EDA & visualization done.
+3.  Data transformation and feature selection completed.
+4.  Model implementation to be added soon.
+
 ## Usage
 
 1. Open Jupyter Notebook:
