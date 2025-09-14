@@ -1,35 +1,63 @@
 # RecycleVision
 
 ## Description
-RecycleVision is an AI-powered system that identifies whether an item is recyclable or non-recyclable from an image. It helps users segregate waste efficiently and promotes sustainable practices.
+RecycleVision is a machine learning and computer vision application that classifies waste items as recyclable or non-recyclable. The project is trained on a custom dataset and deployed using Streamlit for a user-friendly web interface.
 
 ## Features
-- Classifies items as recyclable or non-recyclable.
-- Uses machine learning and image recognition.
-- Simple and user-friendly interface.
+- Classifies waste images into recyclable and non-recyclable.
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Pavani-3101/RecycleVision.git
-2. Navigate to the project folder:
-   ```bash
-   cd RecycleVision
+- Upload images directly through the Streamlit web app.
 
-## Current Status
+- Provides real-time predictions.
 
-1.  Dataset preparation completed.
-2.  EDA & visualization done.
-3.  Data transformation and feature selection completed.
-4.  Model implementation to be added soon.
+- Built with Python libraries: scikit-learn, OpenCV, scikit-image, joblib, etc.
+
+## Technologies used
+- Technologies Used
+
+- Python
+
+- Streamlit
+
+- OpenCV (cv2)
+
+- scikit-image (skimage)
+
+- scikit-learn (sklearn)
+
+- joblib
 
 ## Usage
 
-1. Open Jupyter Notebook:
-   ```bash
-   jupyter notebook
+Follow these steps to run and use the RecycleVision web app:
 
+1. **Clone the repository** 
 
-2. Run the notebook file (RecycleVision.ipynb).
+```bash
+git clone <your-repo-url>
+cd RecycleVision
+```
 
-3. Upload an image, and the system will classify it as recyclable or non-recyclable.
+2. **Install dependencies**
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Streamlit app**
+   ```
+   python -m streamlit run recyclevision_app.py
+   ```
+4. **Open the app in a browser**:
+
+   Use the Local URL provided by Streamlit (usually http://localhost:8501).
+
+   If using the Network URL, you can access it from other devices on the same network.
+
+5. **Upload an image of waste**:
+
+   Use the upload button in the web interface to select an image from your computer.
+
+6. **View the prediction**:
+
+   The app will display whether the uploaded item is recyclable or non-recyclable.
+
